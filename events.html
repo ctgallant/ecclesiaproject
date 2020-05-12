@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<title>Ecclesia | Events</title>
+	
+	<!-- Stylesheet Links -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type = "text/css" href = "maincss.css" />
+
+	<!-- Scripts -->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	</head>
+<script>
+ $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+            });
+      });
+
+      // Scrolling Effect
+
+      $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                  $('nav').addClass('black');
+            }
+
+            else {
+                  $('nav').removeClass('black');
+            }
+      })
+</script>
+<style>
+header {
+      width: 100%;
+      height: 100vh;
+      background: url("guitar.jpg") no-repeat 50% 50%;
+      background-size: cover;
+	  box-shadow: 0px 15px 10px -15px #111; 
+	  z-index: 99;
+
+}
+</style>
+<body>
+<!-- Navigation -->
+<div class="wrapper">
+         <header>
+            <nav>
+               <div class="menu-icon">
+                  <i class="fa fa-bars fa-2x"></i>
+               </div>
+               <div class="logo">
+                  <img src="Ecclesia-Logo.gif" alt="Ecclesia Logo" height="200" width="400">
+               </div>
+               <div class="menu">
+                  <ul>
+                     <li><a href="index.html">Home</a></li>
+                     <li><a href="about.html">About</a></li>
+                     <li><a href="menu.html">Menu</a></li>
+                     <li><a href="#">Events</a></li>
+                     <li><a href="articles.html">Articles</a></li>
+					 <li><a href="contact.html">Contact</a></li>
+                  </ul>
+               </div>
+            </nav>
+         </header>
+<div class="content">
+<h1>May 2020 Events</h1>
+<br>
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+<div class="card" style="width: 18rem; margin: auto;">
+  <img class="card-img-top" src="joesphneville.jpg" alt="Joseph Neville">
+  <div class="card-body">
+    <p class="card-text">Joseph Neville 6/25/2020</p>
+    <a href="articles.html" class="btn btn-primary">More</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="card" style="width: 18rem; margin: auto;">
+  <img class="card-img-top" src="moutains.jpg" alt="Moutains">
+  <div class="card-body">
+    <p class="card-text">Final Friday Benefit Show 6/29/2020</p>
+    <a href="articles.html" class="btn btn-primary">More</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+ </div>
+</body>
+
+<footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>About</h6>
+            <p class="text-justify">At <i>Ecclesia</i>, we strive to give you the best quality
+									hand crafted drinks. We are passionate about ethically purchased and 
+									direct trade coffee. We believe that not everyone has the same preference, so 
+									we like to make your coffee exactly the way you want it. We are located in Wichita, Ks.</p>
+          </div>
+
+          <div class="col-xs-6 col-md-6">
+            <h6>Quick Links</h6>
+            <ul class="footer-links">
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by Ecclesia.
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="facebook" href="https://www.facebook.com/EcclesiaCoffee/"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="twitter" href="https://twitter.com/EcclesiaCoffee"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="instagram" href="https://www.instagram.com/ecclesiacoffee/"><i class="fa fa-instagram"></i></a></li>   
+            </ul>
+          </div>
+        </div>
+      </div>
+</footer>
+</html>

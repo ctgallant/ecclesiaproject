@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	 <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+	
+	<title>Ecclesia | Contact</title>
+	
+	<!-- Stylesheet Links -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"/>
+	<link rel="stylesheet" type = "text/css" href = "maincss.css" />
+
+	<!-- Scripts -->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	</head>
+<script>
+ $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+            });
+      });
+
+      // Scrolling Effect
+
+      $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                  $('nav').addClass('black');
+            }
+
+            else {
+                  $('nav').removeClass('black');
+            }
+      })
+</script>
+<style>
+header {
+      width: 100%;
+      height: 100vh;
+      background: url("contact.jpg") no-repeat 50% 50%;
+      background-size: cover;
+	  box-shadow: 0px 15px 10px -15px #111;  
+	  z-index: 99;
+
+}
+</style>
+
+<body>
+<!-- Navigation -->
+<div class="wrapper">
+         <header>
+            <nav>
+               <div class="menu-icon">
+                  <i class="fa fa-bars fa-2x"></i>
+               </div>
+               <div class="logo">
+                  <img src="Ecclesia-Logo.gif" alt="Ecclesia Logo" height="200" width="400">
+               </div>
+               <div class="menu">
+                  <ul>
+                     <li><a href="index.html">Home</a></li>
+                     <li><a href="about.html">About</a></li>
+                     <li><a href="menu.html">Menu</a></li>
+                     <li><a href="events.html">Events</a></li>
+                     <li><a href="articles.html">Articles</a></li>
+					 <li><a href="#">Contact</a></li>
+                  </ul>
+               </div>
+            </nav>
+         </header>
+<div class="content">
+	<h1>Store Location</h1>
+	<hr style="color: #8a8a8a; border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); margin-bottom: 40px;">
+		<div class="row">
+		<div class="col">
+			<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3157.662061612154!2d-97.42700118468505!3d37.68064777977659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87bae0bd773458c5%3A0x4a4a867427b8c73a!2sEcclesia%20Coffee%20%26%20Community!5e0!3m2!1sen!2sus!4v1589165157766!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></p>
+		</div>
+		
+		<div class="col">
+			<p><strong>We are located</strong> on the North East corner of Maple and Ridge in West Wichita.
+			<br>
+			   7130 W Maple #280 Wichita KS 67209
+			<br>
+			<strong>Our hours include</strong>
+			<br>
+			   Monday – Friday   8:30a – 10p
+			<br>
+			   Saturday   8:30a – 7p
+			<br>
+			   Sunday   1p-6p
+			<br>
+			<strong>Feel free to contact us at</strong>
+			<br>
+			   316-440-3113 or EcclesiaCoffeeCommunity@gmail.com
+
+		</div>
+		</div>
+	<h1>Contact Us </h1>
+	<hr style="color: #8a8a8a; border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); margin-bottom: 40px;">
+		<div class="row" style="text-align: left;">
+		<div class="col">
+			<form id="contact-form" method="POST">
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Email address</label>
+          <input
+            type="email"
+            class="form-control"
+            name="email"
+            placeholder="name@example.com"
+          />
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">First Name</label>
+          <input
+            type="text"
+            class="form-control"
+            name="first_name"
+            placeholder=""
+          />
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Last Name</label>
+          <input
+            type="text"
+            class="form-control"
+            name="last_name"
+            placeholder=""
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Messages</label>
+          <textarea class="form-control" id="messages" rows="3"></textarea>
+        </div>
+        <div class="form-group text=right" style="text-align: center;">
+          <button class="btn-btn-primary" type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAsJHPadrn0snZrVNm_6LUMOdnpxcdoxy0",
+    authDomain: "ecclesia-26450.firebaseapp.com",
+    databaseURL: "https://ecclesia-26450.firebaseio.com",
+    projectId: "ecclesia-26450",
+    storageBucket: "ecclesia-26450.appspot.com",
+    messagingSenderId: "724846501727",
+    appId: "1:724846501727:web:d0f9dba0186a8fef62e0ea",
+    measurementId: "G-K3MEJVPLYW"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+
+      var db = firebase.firestore();
+
+      $(document).on("submit", "#contact-form", function (event) {
+        event.preventDefault();
+        // Add a new document in collection "cities"
+        db.collection("contacts")
+          .doc()
+          .set({
+            email: $(this).find("input[name=email]").val(),
+            first_name: $(this).find("input[name=first_name]").val(),
+            last_name: $(this).find("input[name=last_name]").val(),
+          })
+          .then(function () {
+            console.log("Document successfully written!");
+          })
+          .catch(function (error) {
+            console.error("Error writing document: ", error);
+          });
+        //console.log($(this).find("input[name=email]").val());
+        //console.log($(this).find("input[name=first_name]").val());
+        //console.log($(this).find("input[name=last_name]").val());
+
+        var docRef = db.collection("contacts").doc("CFtpiNaGpMbY8LKC8TcU");
+
+        docRef
+          .get()
+          .then(function (doc) {
+            if (doc.exists) {
+              console.log("Document data:", doc.data());
+            } else {
+              // doc.data() will be undefined in this case
+              console.log("No such document!");
+            }
+          })
+          .catch(function (error) {
+            console.log("Error getting document:", error);
+          });
+      });
+
+      var contactRef = db.collection("contacts");
+      contactRef.where("email", "==", "test@gmail.com");
+      contactRef.get().then(function (querySnapshot) {
+        if (querySnapshot.size > 0) {
+          console.log(querySnapshot.docs[0].data());
+        } else console.log("no records found");
+      });
+    </script>
+</div>
+</div>
+</div>	
+</body>
+
+<footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>About</h6>
+            <p class="text-justify">At <i>Ecclesia</i>, we strive to give you the best quality
+									hand crafted drinks. We are passionate about ethically purchased and 
+									direct trade coffee. We believe that not everyone has the same preference, so 
+									we like to make your coffee exactly the way you want it. We are located in Wichita, Ks.</p>
+          </div>
+
+          <div class="col-xs-6 col-md-6">
+            <h6>Quick Links</h6>
+            <ul class="footer-links">
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by Ecclesia.
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="facebook" href="https://www.facebook.com/EcclesiaCoffee/"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="twitter" href="https://twitter.com/EcclesiaCoffee"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="instagram" href="https://www.instagram.com/ecclesiacoffee/"><i class="fa fa-instagram"></i></a></li>   
+            </ul>
+          </div>
+        </div>
+      </div>
+</footer>
+</html>
